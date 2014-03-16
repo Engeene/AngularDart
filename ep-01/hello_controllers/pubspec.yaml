@@ -1,0 +1,4 @@
+name: hello_controllers
+description: A sample application
+dependencies:
+  angular: any
