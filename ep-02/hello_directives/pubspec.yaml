@@ -1,0 +1,4 @@
+name: hello_directives
+dependencies:
+    angular: any
+

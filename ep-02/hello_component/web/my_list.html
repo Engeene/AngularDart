@@ -1,0 +1,14 @@
+<div>
+  <form ng-submit="cmp.add()">
+    <input type="text" ng-model="cmp.newItem"/>
+    <input type="submit" value="Add"/>
+  </form>
+  <p>{{ cmp.items.length }} item<span ng-if="cmp.items.length != 1">s</span> added.</p>
+  <ul>
+    <li ng-repeat="item in cmp.items">
+      <a href="" ng-click="cmp.remove(item)">
+        {{ item.text }}
+      </a>
+    </li>
+  </ul> 
+</div>
